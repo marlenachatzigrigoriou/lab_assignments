@@ -2,6 +2,7 @@
 .project
 .settings/
 .classpath
+.metadata/
 
 # Maven output files and directories
 target/

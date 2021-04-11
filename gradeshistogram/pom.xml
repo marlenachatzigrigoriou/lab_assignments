@@ -10,9 +10,11 @@
   	</parent>
   	
   	<artifactId>gradeshistogram</artifactId>
-  	<name>Child Project</name>
-	<description>This module creates a Java application that reads a file with students’ grades, 
-				 and generates its histogram. 
+  	<name>First lab assignment project-Build a maven project</name>
+	<description>This is a project to get familiar with a Java library and
+				 use Maven to package an application and the aforementioned 
+				 library into a standalone executable.It creates a Java application that reads
+				 a file with students’ grades, and generates its histogram. 
 	</description>
 	
 	<dependencies>

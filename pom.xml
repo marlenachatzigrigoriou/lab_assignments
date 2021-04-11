@@ -7,10 +7,9 @@
 	<artifactId>ase2021_practical_assignments</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>Parent Project</name>
-	<description>This is a project to get familiar with a Java library and
-				 use Maven to package an application and the aforementioned 
-				 library into a standalone executable.
+	<name>Lab assignments projects</name>
+	<description>
+		The head Project including all lab assignments of Software Engineering in 2021.
 	</description>
 	
 	<modules>

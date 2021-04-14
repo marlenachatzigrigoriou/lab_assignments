@@ -12,5 +12,5 @@ Requirements for the software and other tools to build, test and push
 
 - Clone the repository to a local folder (```git clone https://github.com/marlenachatzigrigoriou/lab_assignments.git```)
 - Open the command line in your cloned reporitory and enter ```mvn package```
-- Enter the command ```java -jar gradeshistogram/target/gradeshistogram-0.0.1-SNAPSHOT-jar-with-dependencies.jar <file_to_your_local_grades_file>```
+- Enter the command ```java -jar gradeshistogram/target/gradeshistogram-0.0.1-SNAPSHOT-jar-with-dependencies.jar <path_to_your_local_grades_file>```
 - The histogram has been generated !

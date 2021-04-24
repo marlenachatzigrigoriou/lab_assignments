@@ -1,5 +1,4 @@
-# Lab assignment #2
-A Java application (using the Maven build-automation tool) that reads a file with students’ grades, and generates its histogram.
+# Lab assignments
 
 ## Prerequisites
 
@@ -8,7 +7,10 @@ Requirements for the software and other tools to build, test and push
 - [Eclipse IDE for Java Developers](https://www.eclipse.org/downloads/packages/)
 - [Maven](https://maven.apache.org/download.cgi) (if running the project on command line)
 
-## How to build and run the project
+## Lab assignment #2
+A Java application (using the Maven build-automation tool) that reads a file with students’ grades, and generates its histogram.
+
+### How to build and run the project
 
 - Clone the repository to a local folder (```git clone https://github.com/marlenachatzigrigoriou/lab_assignments.git```)
 - Open the command line in your cloned reporitory and enter ```mvn package```

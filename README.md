@@ -1,4 +1,7 @@
 # Lab assignments
+![Build Status](https://travis-ci.com/marlenachatzigrigoriou/lab_assignments.svg?token=RvPtZ33KeadnU7un5SF8&branch=main)
+
+This is a Maven project, including my Lab Assignments.
 
 ## Prerequisites
 

@@ -17,7 +17,7 @@ branches:        # Execute job only on specific branch commits
 #   - sudo apt install maven –y     # Install required packages
 
 before_script:        # Run commands  
-  - cd project        # Enter Maven root directory
+  # - cd project        # Enter Maven root directory
   - ls -la
 
 script:               # Build the project  

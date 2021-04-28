@@ -7,7 +7,7 @@ jdk:             # Define the execution environments
 branches:        # Execute job only on specific branch commits
   only:  
     - main  
-    # - development
+    - development
 
 # sudo: required         # Linux administrator permissions 
 # before_install:   

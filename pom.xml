@@ -18,7 +18,26 @@
 		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
 
+	<build>  
+		<plugins>    
+			<plugin>      
+				<groupId>org.jacoco</groupId>      
+				<artifactId>jacoco-maven-plugin</artifactId>      
+				<version>0.8.6</version>      
+				<executions>        
+					<execution>          
+						<id>prepare-agent</id>          
+						<goals>            
+							<goal>prepare-agent</goal>          
+						</goals>        
+					</execution>      
+				</executions>    
+			</plugin>   
+		</plugins>
+	</build>
+
 	<modules>
 		<module>gradeshistogram</module>
+		<module>unittesting</module>
 	</modules>
 </project>

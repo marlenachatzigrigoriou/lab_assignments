@@ -2,7 +2,6 @@ package io;
 
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -40,11 +39,12 @@ public class FileIO {
 			while ((line = reader.readLine()) != null) {
 				int number = Integer.parseInt(line);
 				numbersList.add(number);
-			}
+			} 
+		} catch (NumberFormatException ex) {
+			throw new NumberFormatException("Ignore no int values.");		
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
 		if (numbersList.size() == 0) 
 			throw new IllegalArgumentException("Given file is empty");
 		

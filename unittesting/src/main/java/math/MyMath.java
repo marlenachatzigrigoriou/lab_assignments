@@ -28,6 +28,27 @@ public class MyMath {
 		} else {    
 			return(number * factorial(number-1));    
 		}
-	} 
+	}
+	
+	/**
+	 * Performs if a number is prime or not.
+	 * @param n the number to be checked.
+	 * @return True if n is a prime number, False if it is not.
+	 * @exception IllegalArgumentException when n is lower than 2.
+	 */
+	public boolean isPrime(int n) {
+		boolean isItPrime = true;
+		if (n >= 2) {
+			for (int i = 2; i<= n/2; i++) {
+				if ((n % i) == 0) {
+					isItPrime = false;
+					break;
+				}
+			}
+			return isItPrime;
+		} else {
+			throw new IllegalArgumentException("Input number n should be >= 2");
+		}
+	}
 	
 }

@@ -10,16 +10,11 @@
 	</parent>
 	
 	<artifactId>unittesting</artifactId>
-	<name>Unit Testing practice project</name>
-	<description>A project for practicing Unit Testing</description>
-	
-	<dependencies>
-		<dependency>
-			<groupId>junit</groupId>
-		    <artifactId>junit</artifactId>
-		    <version>4.12</version>
-		    <scope>test</scope>
-		</dependency>
-	</dependencies>
+	<name>Second lab assignment project - Unit Testing practice project</name>
+	<description>This is a project to get familiar with
+				 unittesting. It includes junit tests concerning reading files
+				 and arithmetic operations, using the mockito library and jacoco
+				 code coverage report.
+	</description>
 	
 </project>

@@ -23,9 +23,4 @@ A Java application (using the Maven build-automation tool) that reads a file wit
 ## Lab assignment #3
 A Java project for practicing jUnit test and code coverage.
 
-### How to build and run the project
-
-- Clone the repository to a local folder (```git clone https://github.com/marlenachatzigrigoriou/lab_assignments.git```)
-- Open the command line in your cloned reporitory and enter ```mvn package jacoco:report```
-- Browse unittesting folder: ..\lab_assignments\unittesting\target\site\jacoco and click on index.html .
-- Now you can see on your browser the jacoco code coverage report.
+[more information in unittesting/README.md](https://github.com/marlenachatzigrigoriou/lab_assignments/blob/development/unittesting/README.md)

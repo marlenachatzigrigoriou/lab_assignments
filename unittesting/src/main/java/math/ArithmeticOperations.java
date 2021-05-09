@@ -35,6 +35,8 @@ public class ArithmeticOperations {
 	public int multiply(int x, int y) {
 		if (x < 0 || y < 0) {
 			throw new IllegalArgumentException("x & y should be >= 0");
+		} else if (x==0 || y==0) {
+			return 0;
 		} else if (x <= Integer.MAX_VALUE/y) {
 			return x*y;			
 		} else {

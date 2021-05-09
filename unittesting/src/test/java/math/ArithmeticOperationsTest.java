@@ -45,6 +45,8 @@ public class ArithmeticOperationsTest {
 	public void testMultiply() {
 		Assert.assertEquals(50, obj.multiply(10, 5), 0);
 		Assert.assertEquals(118800, obj.multiply(1200, 99), 0);
+		Assert.assertEquals(0, obj.multiply(1200, 0), 0);
+		Assert.assertEquals(0, obj.multiply(0, 99), 0);
 	}
 	
 	@Rule

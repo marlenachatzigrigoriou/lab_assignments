@@ -28,7 +28,7 @@ public class MyMathTest {
 		thrown.expect(IllegalArgumentException.class);
 		thrown.expectMessage("Input number n should be >= 2");
 		mm.isPrime(-10);	
-		mm.factorial(1);		
+		mm.isPrime(1);		
 	}
 
 	@Test

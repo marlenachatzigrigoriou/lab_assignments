@@ -25,11 +25,20 @@ public class ArithmeticOperationsTest {
 	public void testDivide() {
 		Assert.assertEquals(2.0, obj.divide(10.0, 5.0), 0);
 		Assert.assertEquals(-1.826, obj.divide(3.14, -1.72), 0.001);
+		Assert.assertEquals(31400, obj.divide(3.14, 0.0001), 0);
+		Assert.assertEquals(-31400, obj.divide(3.14, -0.0001), 0);
+
 	}
 	
 	@Test (expected = ArithmeticException.class)
-	public void testDivideReturnsArithmeticException() {
-		obj.divide(5.0, 0.0);		
+	public void testDivideReturnsArithmeticException() {		
+		 try {
+			 obj.divide(5.0, 0.0);
+		 } catch(ArithmeticException re) {
+	      	String message = "Cannot divide with zero";
+	      	Assert.assertEquals(message, re.getMessage());
+	      	throw re;
+		 }
 	}
 	
 	@Test

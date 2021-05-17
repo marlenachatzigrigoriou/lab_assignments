@@ -1,4 +1,5 @@
 # Lab assignments
+![Build Status](https://travis-ci.com/marlenachatzigrigoriou/lab_assignments.svg?token=RvPtZ33KeadnU7un5SF8&branch=main)
 
 This is a Maven project, including my Lab Assignments.
 
@@ -18,3 +19,8 @@ A Java application (using the Maven build-automation tool) that reads a file wit
 - Open the command line in your cloned reporitory and enter ```mvn package```
 - Enter the command ```java -jar gradeshistogram/target/gradeshistogram-0.0.1-SNAPSHOT-jar-with-dependencies.jar <path_to_your_local_grades_file>```
 - The histogram has been generated !
+
+## Lab assignment #3
+A Java project for practicing jUnit test and code coverage.
+
+[more information in unittesting/README.md](https://github.com/marlenachatzigrigoriou/lab_assignments/blob/development/unittesting/README.md)

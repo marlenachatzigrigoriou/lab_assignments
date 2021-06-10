@@ -23,4 +23,9 @@ A Java application (using the Maven build-automation tool) that reads a file wit
 ## Lab assignment #3
 A Java project for practicing jUnit test and code coverage.
 
-[more information in unittesting/README.md](https://github.com/marlenachatzigrigoriou/lab_assignments/blob/development/unittesting/README.md)
+more information in [unittesting/README.md](https://github.com/marlenachatzigrigoriou/lab_assignments/blob/development/unittesting/README.md)
+
+## Lab assignment #4
+A Java project for practicing SOLID Patterns and refactoring.
+
+more information in [sourcecodeanalyzer/README.md](https://github.com/marlenachatzigrigoriou/lab_assignments/blob/development/sourcecodeanalyzer/README.md)

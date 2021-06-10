@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  		<modelVersion>4.0.0</modelVersion>
+  		
+  		<parent>
+    		<groupId>gr.aueb.dmst.marlena</groupId>
+    		<artifactId>ase2021_practical_assignments</artifactId>
+    		<version>0.0.1-SNAPSHOT</version>
+  		</parent>
+	  	
+	  	<groupId>gr.aueb.gkortzis</groupId>
+	  	<artifactId>sourcecodeanalyzer</artifactId>
+	  	<name>Design Patterns assignment's code base</name>
+	  	<description>This module contains the code base that will serve as the starting point for the design pattern assignment</description>
+		
+		<dependencies>
+			<dependency>
+			    <groupId>com.github.stefanbirkner</groupId>
+			    <artifactId>system-rules</artifactId>
+			    <version>1.19.0</version>
+			    <scope>test</scope>
+			</dependency>
+		</dependencies>
+
+
+</project>

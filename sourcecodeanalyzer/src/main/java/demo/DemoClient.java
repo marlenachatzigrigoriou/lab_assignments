@@ -26,7 +26,11 @@ public class DemoClient {
 			
 			Facade facade = new Facade();
 			facade.analyzer(sourceCodeAnalyzerType, fileReaderType, filepath, outputFileType, outputFilePath);
-		
+			
+		} else if ( args.length == 0) {
+			Facade facade = new Facade();
+			facade.analyzer(sourceCodeAnalyzerType, fileReaderType, filepath, outputFileType, outputFilePath);
+			
 		} else if (args.length != 0) {
 			System.out.println("Incorrect number of arguments.");
 		}

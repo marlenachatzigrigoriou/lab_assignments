@@ -7,7 +7,7 @@ and finally, exports these metrics to an output file.
 ## Class diagram of the redesigned system:
 
 <p align="center">
-  <img alt="Class diagram" src="">
+  <img alt="Class diagram" src="https://github.com/marlenachatzigrigoriou/lab_assignments/blob/783a442569e44278e32042ca56163b4a69ab2d5e/sourcecodeanalyzer/images/diagram.png">
 </p>
 
 ## SOLID design principles application report:

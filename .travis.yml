@@ -24,5 +24,6 @@ script:               # Build the project
   - mvn clean package jacoco:report
 
 after_success:        # Notify users about the result  
+  - cd sourcecodeanalyzer
   - chmod +x scripts/runtest.sh
   - echo “Process terminated successfully”

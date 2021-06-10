@@ -25,5 +25,5 @@ script:               # Build the project
 
 after_success:        # Notify users about the result  
   - cd sourcecodeanalyzer
-  - chmod +x scripts/runtest.sh
+  - scripts/runtest.sh
   - echo “Process terminated successfully”
